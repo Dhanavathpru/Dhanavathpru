@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,37 +29,39 @@
             <button class="button">Search</button>
         </div>
     </div>
-    <h1 class="main-heading1">About</h1>
+    <div class="about-container" style="
+    padding:20px;
+    "
+    >
+        <h1 class="main-heading1">About</h1>
         <p class="paragraph">Goa, a vibrant state on the southwestern coast of India, is a tropical paradise renowned for its stunning beaches, rich history, and vibrant culture. Blessed with a mix of Portuguese and Indian influences, Goa offers a unique blend of colonial architecture, bustling markets, and spiritual retreats. Its palm-fringed shorelines, azure waters, and beach shacks attract sun-seekers and water sports enthusiasts alike. The region's diverse cuisine, pulsating nightlife, and music festivals make it a popular destination for both domestic and international travelers. Beyond the coast, ancient temples, churches, and forts reflect its rich heritage. Goa's relaxed atmosphere and warm hospitality make it an unforgettable destination for all who visit.</p>
-
+    </div>
     <div class="suggest-section">
-        <h2>Suggested Hostels in Goa</h2>
+        <h2>Suggested Hotels in Goa</h2>
         <div class="container">
             <div class="hostel-card">
                 <img src="https://tse1.mm.bing.net/th?id=OIP.qlaGILnVULVH2vBcs-rCZQHaE8&pid=Api&P=0&h=180" alt="Hostel 1">
-                <h3>Hostel 1</h3>
-                <p>Location: Anjuna Beach</p>
-                <p>Price: $20/night</p>
-                <p>Rating: 4.5/5</p>
+                <h3>Hotel 1</h3>
+                <p class="text1">Location: Anjuna Beach</p>
+                <p class="text1">Price: $20/night</p>
+                <p class="text1">Rating: 4.5/5</p>
             </div>
             <div class="hostel-card">
                 <img src="https://tse1.mm.bing.net/th?id=OIP.LlBxB7G1oQUBLSabtPHtFgHaDt&pid=Api&P=0&h=180" alt="Hostel 2">
-                <h3>Hostel 2</h3>
-                <p>Location: Vagator Beach</p>
-                <p>Price: $18/night</p>
-                <p>Rating: 4.3/5</p>
+                <h3>Hotel 2</h3>
+                <p class="text1">Location: Vagator Beach</p>
+                <p class="text1">Price: $18/night</p>
+                <p class="text1">Rating: 4.3/5</p>
             </div>
             <div class="hostel-card">
                 <img src="https://tse2.mm.bing.net/th?id=OIP.HNg0S-14xcPxxp3pneapSAHaD4&pid=Api&P=0&h=180" alt="Hostel 3">
-                <h3>Hostel 3</h3>
-                <p>Location: Calangute Beach</p>
-                <p>Price: $25/night</p>
+                <h3>Hotel 3</h3>
+                <p class="text1">Location: Calangute Beach</p>
+                <p class="text1">Price: $25/night</p>
+                <p class="text1">Rating: 3.7/5</p>
             </div>
         </div>
     </div>
-
-    <!-- Additional Goa Beach Photos -->
-    <!-- Additional Goa Beach Photos -->
     <!DOCTYPE html>
     <html>
     
@@ -72,8 +74,12 @@
     
     <body>
         <div class="card1">
-            <h1>More photos</h1>
-            <div id="carouselExampleIndicators" class="carousel slide car1" data-ride="carousel">
+        <div class="about-container" style="
+        padding:20px;
+        " >
+           <h1>More photos</h1>
+        </div> 
+            <div id="carouselExampleIndicators" class="carousel slide car1 carousel-card" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -137,3 +143,5 @@
 </body>
 
 </html>
+       
+               
